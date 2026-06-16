@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ScholarGuide AI</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-content">
+      <h1>ScholarGuide AI</h1>
+      <p>Multilingual Speech and NLP-Based Scholarship Discovery and Eligibility Recommendation System for Rural and Low-Income Students.</p>
+      <a href="#features" class="btn">Explore Features</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About ScholarGuide AI</h2>
+        <p>Accessing scholarship information is a significant challenge for many students, especially those from rural and low-income backgrounds. ScholarGuide AI simplifies scholarship search and eligibility discovery with a conversational assistant that accepts voice or text in the student’s preferred language.</p>
+        <div class="cards">
+          <article class="card">
+            <h3>Voice & Text Interaction</h3>
+            <p>Students can speak or type their queries, and the system converts speech into text for faster access.</p>
+          </article>
+          <article class="card">
+            <h3>Multilingual Support</h3>
+            <p>The platform supports regional languages so students can interact comfortably in their native language.</p>
+          </article>
+          <article class="card">
+            <h3>Eligibility Recommendations</h3>
+            <p>Intelligent NLP extracts qualifications, income, location, and category details to match students with relevant scholarships.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="section feature-section">
+      <div class="container">
+        <h2>Key Features</h2>
+        <ul class="feature-list">
+          <li>Automated scholarship discovery from a structured database</li>
+          <li>Simple explanations of eligibility criteria, deadlines, documents, and benefits</li>
+          <li>Speech recognition and multilingual conversational UI</li>
+          <li>Personalized recommendations based on academic, financial, and demographic details</li>
+          <li>Designed for rural and low-income students with limited digital literacy</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="demo" class="section demo-section">
+      <div class="container">
+        <h2>Live Scholarship Assistant</h2>
+        <p>Enter your qualification details, or use speech input if your browser supports it.</p>
+        <div class="assistant-panel">
+          <div class="input-group">
+            <label for="student-input">Describe your profile and scholarship needs:</label>
+            <textarea id="student-input" placeholder="E.g. 12th pass, family income under 2 lakh, rural area, SC category"></textarea>
+          </div>
+          <div class="controls">
+            <button id="listen-btn" class="btn secondary">Start Voice Input</button>
+            <button id="recommend-btn" class="btn">Find Scholarships</button>
+          </div>
+          <div id="status" class="status">Ready to assist you.</div>
+        </div>
+        <div id="results" class="results"></div>
+      </div>
+    </section>
+
+    <section id="how-it-works" class="section">
+      <div class="container">
+        <h2>How It Works</h2>
+        <div class="steps-grid">
+          <article class="step">
+            <h3>1. Capture Query</h3>
+            <p>Speech recognition converts spoken questions into text and supports regional languages.</p>
+          </article>
+          <article class="step">
+            <h3>2. Extract Details</h3>
+            <p>NLP extracts key student information such as qualification, academic score, income, and location.</p>
+          </article>
+          <article class="step">
+            <h3>3. Match Scholarships</h3>
+            <p>The system compares student details against scholarship eligibility rules and returns the best matches.</p>
+          </article>
+          <article class="step">
+            <h3>4. Explain & Guide</h3>
+            <p>Students receive clear guidance on required documents, deadlines, benefits, and application steps.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        <h2>Get Started</h2>
+        <p>ScholarGuide AI is designed to make scholarship discovery easier, more accessible, and more inclusive.</p>
+        <a href="mailto:info@scholarguide.ai" class="btn">Contact Us</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 ScholarGuide AI | Empowering rural and low-income students through smarter scholarship access.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

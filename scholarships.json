@@ -1,0 +1,272 @@
+{
+  "scholarships": [
+    {
+      "id": 1,
+      "name": "National Scholarship for Rural Students",
+      "provider": "Ministry of Education, Government of India",
+      "amount": 50000,
+      "currency": "INR",
+      "frequency": "Annual",
+      "category": "Rural Development",
+      "eligibility": {
+        "location": "rural",
+        "maxIncome": 200000,
+        "qualification": ["10th", "12th", "graduation"],
+        "age": "18-35"
+      },
+      "description": "Scholarship for students from rural areas with family income below 2 lakh.",
+      "criteria": "Family income < 2 lakh, Agricultural background preferred",
+      "deadline": "31st July 2026",
+      "documents": [
+        "Aadhar Card",
+        "Income Certificate",
+        "10th/12th Mark Sheet",
+        "Bank Passbook"
+      ],
+      "website": "https://scholarships.gov.in",
+      "processingTime": "30-45 days",
+      "renewalAvailable": true,
+      "maxYear": 4
+    },
+    {
+      "id": 2,
+      "name": "SC/ST Category Scholarship",
+      "provider": "Ministry of Social Justice and Empowerment",
+      "amount": 100000,
+      "currency": "INR",
+      "frequency": "Annual",
+      "category": "Social Justice",
+      "eligibility": {
+        "category": ["sc", "st"],
+        "qualification": ["10th", "12th", "graduation", "postgraduate"]
+      },
+      "description": "Special scholarship for students from Scheduled Caste and Scheduled Tribe categories.",
+      "criteria": "Valid SC/ST certificate required",
+      "deadline": "30th August 2026",
+      "documents": [
+        "Caste Certificate",
+        "Aadhar Card",
+        "Bank Passbook",
+        "Mark Sheet"
+      ],
+      "website": "https://scholarships.gov.in",
+      "processingTime": "45-60 days",
+      "renewalAvailable": true,
+      "maxYear": 5
+    },
+    {
+      "id": 3,
+      "name": "Merit Scholarship for High Achievers",
+      "provider": "National Board of Education",
+      "amount": 75000,
+      "currency": "INR",
+      "frequency": "Annual",
+      "category": "Merit Based",
+      "eligibility": {
+        "minMarks": 80,
+        "qualification": ["12th", "graduation"]
+      },
+      "description": "Scholarship for students with excellent academic performance.",
+      "criteria": "12th pass with 80% or above marks",
+      "deadline": "15th September 2026",
+      "documents": [
+        "Mark Sheet",
+        "Aadhar Card",
+        "Birth Certificate"
+      ],
+      "website": "https://scholarships.gov.in",
+      "processingTime": "20-30 days",
+      "renewalAvailable": true,
+      "maxYear": 4
+    },
+    {
+      "id": 4,
+      "name": "OBC Scholarship",
+      "provider": "Ministry of Social Justice and Empowerment",
+      "amount": 60000,
+      "currency": "INR",
+      "frequency": "Annual",
+      "category": "Social Justice",
+      "eligibility": {
+        "category": ["obc"],
+        "maxIncome": 300000,
+        "qualification": ["10th", "12th", "graduation"]
+      },
+      "description": "Scholarship available for students from Other Backward Classes.",
+      "criteria": "Valid OBC certificate, Family income below 3 lakh",
+      "deadline": "20th August 2026",
+      "documents": [
+        "OBC Certificate",
+        "Income Certificate",
+        "Aadhar Card",
+        "Mark Sheet"
+      ],
+      "website": "https://scholarships.gov.in",
+      "processingTime": "40-50 days",
+      "renewalAvailable": true,
+      "maxYear": 4
+    },
+    {
+      "id": 5,
+      "name": "Women Empowerment Scholarship",
+      "provider": "Ministry of Women and Child Development",
+      "amount": 80000,
+      "currency": "INR",
+      "frequency": "Annual",
+      "category": "Empowerment",
+      "eligibility": {
+        "gender": "female",
+        "maxIncome": 400000,
+        "qualification": ["10th", "12th", "graduation"]
+      },
+      "description": "Special scholarship for girl students to promote women's education.",
+      "criteria": "Female student, Any educational qualification, Family income below 4 lakh",
+      "deadline": "10th September 2026",
+      "documents": [
+        "Birth Certificate (Female)",
+        "Aadhar Card",
+        "Income Certificate",
+        "Enrollment Letter"
+      ],
+      "website": "https://scholarships.gov.in",
+      "processingTime": "25-35 days",
+      "renewalAvailable": true,
+      "maxYear": 5
+    },
+    {
+      "id": 6,
+      "name": "Low-Income Family Support Scheme",
+      "provider": "Ministry of Rural Development",
+      "amount": 120000,
+      "currency": "INR",
+      "frequency": "Annual",
+      "category": "Poverty Alleviation",
+      "eligibility": {
+        "maxIncome": 100000,
+        "qualification": ["10th", "12th"]
+      },
+      "description": "Financial support for extremely poor students with family income below 1 lakh.",
+      "criteria": "Family income below 1 lakh annually",
+      "deadline": "31st August 2026",
+      "documents": [
+        "BPL Certificate",
+        "Income Certificate",
+        "Aadhar Card",
+        "Mark Sheet"
+      ],
+      "website": "https://scholarships.gov.in",
+      "processingTime": "50-60 days",
+      "renewalAvailable": true,
+      "maxYear": 4
+    },
+    {
+      "id": 7,
+      "name": "Minority Community Scholarship",
+      "provider": "Ministry of Minority Affairs",
+      "amount": 55000,
+      "currency": "INR",
+      "frequency": "Annual",
+      "category": "Minority",
+      "eligibility": {
+        "community": ["muslim", "sikh", "christian", "buddhist", "zoroastrian"],
+        "maxIncome": 250000,
+        "qualification": ["12th", "graduation"]
+      },
+      "description": "Scholarship for students from minority communities.",
+      "criteria": "Minority community membership with valid documented proof",
+      "deadline": "25th August 2026",
+      "documents": [
+        "Community Certificate",
+        "Income Certificate",
+        "Aadhar Card",
+        "Mark Sheet"
+      ],
+      "website": "https://scholarships.gov.in",
+      "processingTime": "35-45 days",
+      "renewalAvailable": true,
+      "maxYear": 4
+    },
+    {
+      "id": 8,
+      "name": "First Generation Learner Scholarship",
+      "provider": "National Education Society",
+      "amount": 45000,
+      "currency": "INR",
+      "frequency": "Annual",
+      "category": "Education Access",
+      "eligibility": {
+        "parentEducation": "primary_or_less",
+        "maxIncome": 350000,
+        "qualification": ["12th", "graduation"]
+      },
+      "description": "Scholarship for students whose parents have not studied beyond primary education.",
+      "criteria": "First generation learner status, parents' education certificate",
+      "deadline": "5th September 2026",
+      "documents": [
+        "Parents' Education Certificate",
+        "Income Certificate",
+        "Aadhar Card",
+        "Mark Sheet"
+      ],
+      "website": "https://scholarships.gov.in",
+      "processingTime": "30-40 days",
+      "renewalAvailable": true,
+      "maxYear": 4
+    },
+    {
+      "id": 9,
+      "name": "Sports Excellence Scholarship",
+      "provider": "Ministry of Youth Affairs and Sports",
+      "amount": 100000,
+      "currency": "INR",
+      "frequency": "Annual",
+      "category": "Sports",
+      "eligibility": {
+        "minIncome": 0,
+        "maxIncome": 400000,
+        "qualification": ["12th", "graduation"],
+        "sportsAchievement": "state_or_national"
+      },
+      "description": "Scholarship for students with outstanding sports achievements.",
+      "criteria": "State or National level sports achievement with certificates",
+      "deadline": "30th June 2026",
+      "documents": [
+        "Sports Achievement Certificate",
+        "Aadhar Card",
+        "Income Certificate",
+        "Mark Sheet"
+      ],
+      "website": "https://scholarships.gov.in",
+      "processingTime": "25-35 days",
+      "renewalAvailable": true,
+      "maxYear": 5
+    },
+    {
+      "id": 10,
+      "name": "Disabled Students Scholarship",
+      "provider": "Ministry of Social Justice and Empowerment",
+      "amount": 90000,
+      "currency": "INR",
+      "frequency": "Annual",
+      "category": "Disability Support",
+      "eligibility": {
+        "disabilityPercentage": 40,
+        "maxIncome": 300000,
+        "qualification": ["10th", "12th", "graduation"]
+      },
+      "description": "Scholarship for students with 40% or more disability.",
+      "criteria": "Valid disability certificate with 40% or more disability",
+      "deadline": "15th September 2026",
+      "documents": [
+        "Disability Certificate",
+        "Income Certificate",
+        "Aadhar Card",
+        "Mark Sheet"
+      ],
+      "website": "https://scholarships.gov.in",
+      "processingTime": "35-50 days",
+      "renewalAvailable": true,
+      "maxYear": 5
+    }
+  ]
+}
