@@ -1,5 +1,9 @@
 # ScholarGuide AI - Scholarship Discovery and Assistance System
 
+## 🌐 Live Demo
+
+**Visit the live website:** [ScholarGuide AI on Vercel](https://scholarshipguide.vercel.app)
+
 ## Overview
 
 **ScholarGuide AI** is a multilingual, speech-enabled, NLP-based scholarship discovery and eligibility recommendation system designed specifically for rural and low-income students. The system simplifies scholarship searches by providing intelligent matching based on student profiles.
@@ -156,6 +160,21 @@ The system uses keyword matching to understand:
 1. Save all three files (index.html, styles.css, script.js) in the same folder
 2. Open `index.html` in a web browser
 3. No server or dependencies required
+
+### Deploy to Vercel (Recommended)
+
+**Easy 1-Click Deployment:**
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/rohithreddy79971-dot/scholarshipguide)
+
+Or manually:
+
+1. Go to https://vercel.com/new
+2. Import the GitHub repository: `rohithreddy79971-dot/scholarshipguide`
+3. Click "Deploy"
+4. Your app will be live at `scholarshipguide.vercel.app`
+
+**Live Deployment:** https://scholarshipguide.vercel.app
 
 ### Deployment
 - Deploy to any static hosting (GitHub Pages, Netlify, Vercel, AWS S3)
